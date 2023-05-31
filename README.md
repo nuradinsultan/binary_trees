@@ -1,129 +1,83 @@
-0x1D. C - Binary trees
+Allowed editors: vi, vim, emacs
+All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
+All your files should end with a new line
+A README.md file, at the root of the folder of the project, is mandatory
+Your code should use the Betty style. It will be checked using betty-style.pl and betty-doc.pl
+You are not allowed to use global variables
+No more than 5 functions per file
+You are allowed to use the standard library
+In the following examples, the main.c files are shown as examples. You can use them to test your functions, but you don’t have to push them to your repo (if you do we won’t take them into account). We will use our own main.c files at compilation. Our main.c files might be different from the one shown in the examples
+The prototypes of all your functions should be included in your header file called binary_trees.h
+Don’t forget to push your header file
+All your header files should be include guarded
+New node Write a function that creates a binary tree node
 
-Tasks
+Insert left Write a function that inserts a node as the left-child of another node
 
-0. New node
-Write a function that creates a binary tree node
+Insert right Write a function that inserts a node as the right-child of another node
 
-1. Insert left
-Write a function that inserts a node as the left-child of another node
+Delete Write a function that deletes an entire binary tree
 
-2. Insert right
-Write a function that inserts a node as the right-child of another node
+Is leaf Write a function that checks if a node is a leaf
 
-3. Delete
-Write a function that deletes an entire binary tree
+Is root Write a function that checks if a given node is a root
 
-4. Is leaf
-Write a function that checks if a node is a leaf
+Pre-order traversal Write a function that goes through a binary tree using pre-order traversal
 
-5. Is root
-Write a function that checks if a given node is a root
+In-order traversal Write a function that goes through a binary tree using in-order traversal
 
-6. Pre-order traversal
-Write a function that goes through a binary tree using pre-order traversal
+Post-order traversal Write a function that goes through a binary tree using post-order traversal
 
-7. In-order traversal
-Write a function that goes through a binary tree using in-order traversal
+Height Write a function that measures the height of a binary tree
 
-8. Post-order traversal
-Write a function that goes through a binary tree using post-order traversal
+Depth Write a function that measures the depth of a node in a binary tree
 
-9. Height
-Write a function that measures the height of a binary tree
+Size Write a function that measures the size of a binary tree
 
-10. Depth
-Write a function that measures the depth of a node in a binary tree
+Leaves Write a function that counts the leaves in a binary tree
 
-11. Size
-Write a function that measures the size of a binary tree
+Nodes Write a function that counts the nodes with at least 1 child in a binary tree
 
-12. Leaves
-Write a function that counts the leaves in a binary tree
+Balance factor Write a function that measures the balance factor of a binary tree
 
-13. Nodes
-Write a function that counts the nodes with at least 1 child in a binary tree
+Is full Write a function that checks if a binary tree is full
 
-14. Balance factor
-Write a function that measures the balance factor of a binary tree
+Is perfect Write a function that checks if a binary tree is perfect
 
-15. Is full
-Write a function that checks if a binary tree is full
+Sibling Write a function that finds the sibling of a node
 
-16. Is perfect
-Write a function that checks if a binary tree is perfect
+Uncle Write a function that finds the uncle of a node
 
-17. Sibling
-Write a function that finds the sibling of a node
+Lowest common ancestor Write a function that finds the lowest common ancestor of two nodes
 
-18. Uncle
-Write a function that finds the uncle of a node
+Level-order traversal Write a function that goes through a binary tree using level-order traversal
 
-19. Lowest common ancestor
-Write a function that finds the lowest common ancestor of two nodes
+Is complete Write a function that checks if a binary tree is complete
 
-20. Level-order traversal
-Write a function that goes through a binary tree using level-order traversal
+Rotate left Write a function that performs a left-rotation on a binary tree
 
-21. Is complete
-Write a function that checks if a binary tree is complete
+Rotate right Write a function that performs a right-rotation on a binary tree
 
-22. Rotate left
-Write a function that performs a left-rotation on a binary tree
+Is BST Write a function that checks if a binary tree is a valid Binary Search Tree
 
-23. Rotate right
-Write a function that performs a right-rotation on a binary tree
+BST - Insert Write a function that inserts a value in a Binary Search Tree
 
-24. Is BST
-Write a function that checks if a binary tree is a valid Binary Search Tree
+BST - Array to BST Write a function that builds a Binary Search Tree from an array
 
-25. BST - Insert
-Write a function that inserts a value in a Binary Search Tree
+BST - Search Write a function that searches for a value in a Binary Search Tree
 
-26. BST - Array to BST
-Write a function that builds a Binary Search Tree from an array
+BST - Remove Write a function that removes a node from a Binary Search Tree
 
-27. BST - Search
-Write a function that searches for a value in a Binary Search Tree
+Big O #BST What are the average time complexities of those operations on a Binary Search Tree (one answer per line):
 
-28. BST - Remove
-Write a function that removes a node from a Binary Search Tree
+Is AVL Write a function that checks if a binary tree is a valid AVL Tree
 
-29. Big O #BST
-What are the average time complexities of those operations on a Binary Search Tree (one answer per line):
+AVL - Insert Write a function that inserts a value in an AVL Tree
 
-30. Is AVL
-Write a function that checks if a binary tree is a valid AVL Tree
+AVL - Array to AVL Write a function that builds an AVL tree from an array
 
-31. AVL - Insert
-Write a function that inserts a value in an AVL Tree
+AVL - Remove Write a function that removes a node from an AVL tree
 
-32. AVL - Array to AVL
-Write a function that builds an AVL tree from an array
+AVL - From sorted array Write a function that builds an AVL tree from an array
 
-33. AVL - Remove
-Write a function that removes a node from an AVL tree
-
-34. AVL - From sorted array
-Write a function that builds an AVL tree from an array
-
-35. Big O #AVL Tree
-What are the average time complexities of those operations on an AVL Tree (one answer per line):
-
-36. Is Binary heap
-Write a function that checks if a binary tree is a valid Max Binary Heap
-
-37. Heap - Insert
-Write a function that inserts a value in Max Binary Heap
-
-38. Heap - Array to Binary Heap
-Write a function that builds a Max Binary Heap tree from an array
-
-39. Heap - Extract
-Write a function that extracts the root node of a Max Binary Heap
-
-40. Heap - Sort
-Write a function that converts a Binary Max Heap to a sorted array of integers
-
-41. Big O #Binary Heap
-What are the average time complexities of those operations on a Binary Heap (one answer per line):
+Big O #AVL Tree What are the average time complexities of those operations on an AVL Tree (one answer per line):
